@@ -1,0 +1,102 @@
+.header {
+    // display: none;
+    width: 100%;
+    background-color: rgb(10, 201, 22);
+    padding: 10px;
+    
+}
+
+.section {
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 8px;
+}
+
+h3 {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.header__section {
+    width: calc(100% - 100px);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo {
+    padding-top: 15px;
+    padding-bottom: 15px;    
+}
+
+.header__title {
+    width: 100%;
+    margin-left: 30px;
+    padding-top: 15px;
+
+    justify-content: center;
+    // align-items: center;
+}
+.title {
+    display: block;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    // margin-left: auto;
+    // margin-right: auto;
+ 
+}
+
+// .gov {
+//    font-size: 24px;
+// //    margin-left: auto;
+// //    margin-right: auto;
+    
+// }
+.city {
+    font-size: 20px;
+    // padding-top: 8px;
+    // padding-bottom: 8px;
+}
+
+.job {
+     font-size: 60px;
+padding-top: 12px;
+padding-bottom: 12px;
+// margin-left: auto;
+// margin-right: auto;
+
+}
+
+.name {
+    font-size: 48px;
+}
+
+.contact {
+    width: 300px;
+    padding-top: 15px;
+
+    color: #fff;
+}
+
+.contact__item {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.location {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.contact__icon {
+    fill: #fff;
+    stroke: #fff;
+    margin-right: 16px;
+}
+
+.point {
+    margin-bottom: 10px;
+}

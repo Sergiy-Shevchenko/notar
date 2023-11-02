@@ -1,0 +1,132 @@
+.section__content {
+    width: calc(100% - 100px);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+// background-color: rgb(202, 209, 214);
+}
+
+.content__title,
+.title__item {
+    display: block;
+    width: fit-content;
+    font-size: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(96, 101, 96);
+}
+
+
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    display: inline-block;
+    list-style-type: none; 
+      width: 200px;
+border: 2px solid rgb(10, 201, 22);
+    border-radius: 6px;
+    justify-content: center;
+    
+}
+
+.item:hover {
+     background-color: rgb(10, 201, 22);
+}
+
+
+.link {
+    display: block;
+      font-size: 18px;
+      font-weight: 700;
+      width: fit-content;
+      text-decoration: none;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      margin-left: auto;
+    margin-right: auto;
+    transition: all 0,3s ease;
+      color: rgb(10, 201, 22);
+}
+
+.link:hover {
+     transition: all 0,3s ease;
+      color: rgb(225, 225, 225);
+}
+
+.text {
+    font-size: 18px;
+    text-indent: 30px;
+    margin:60px;
+    // margin-right: 20px;
+    padding: 20px;
+    color: rgb(96, 101, 96);
+    border: 2px solid rgb(10, 201, 22);
+    border-radius: 8px;
+}
+
+
+.title__item {
+ margin-top:48px;
+}
+
+.schedule-body > tr:hover {
+    background-color: rgb(10, 201, 22);
+    color: white;
+  }
+  
+  /* Table styling */
+  .schedule {
+    border-collapse: collapse;
+  }
+  
+  .schedule th,
+  .schedule td {
+    padding: 8px;
+    // border: 1px solid #212121;
+  }
+// .btn-7 {
+//     color: rgb(231, 128, 25);
+// }
+
+// .btn-7 a {
+//     color: rgb(231, 128, 25);
+//     position: relative;
+//     content: "";
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .btn-7:before,
+// .btn-7:after {
+//     position: absolute;
+//     content: "";
+//     right: 0;
+//     bottom: 0;
+//     box-shadow: 0 0 5px rgb(10, 201, 22);
+//     transition: all 0,3s ease;
+// }
+
+// .btn-7:before {
+//     height: 50%;
+//     width: 2px;
+// }
+
+// .btn-7:after {
+//     width: 20%;
+//     height: 2px;
+// }
+
+// .btn-7:hover:before {
+//     height: 100%;
+// }
+
+// .btn-7:hover:after {
+//     width: 100%;
+// }
