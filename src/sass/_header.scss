@@ -54,28 +54,32 @@ h3 {
     
 // }
 .city {
-    font-size: 20px;
+    font-size: 14px;
     // padding-top: 8px;
     // padding-bottom: 8px;
 }
 
 .job {
-     font-size: 60px;
-padding-top: 12px;
-padding-bottom: 12px;
+     font-size: 40px;
+padding-top: 7px;
+padding-bottom: 7px;
 // margin-left: auto;
 // margin-right: auto;
 
 }
 
 .name {
-    font-size: 48px;
+    font-size: 24px;
 }
 
-.contact {
-    width: 300px;
-    padding-top: 15px;
+// div {
+//    display: inline-flexbox;
+// }
 
+.contact {
+    width: max-content;
+    margin-top: auto;
+    margin-bottom: auto;
     color: #fff;
 }
 
@@ -88,7 +92,10 @@ padding-bottom: 12px;
 .location {
     display: flex;
     margin-bottom: 10px;
+}
 
+.location:last-child {
+    margin-bottom: 0;
 }
 
 .contact__icon {
