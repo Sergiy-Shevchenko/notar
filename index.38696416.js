@@ -1,0 +1,2 @@
+!function(){var n,i=[{id:"id-1",name:"Наші переваги"},{id:"id-2",name:"Наші послуги"},{id:"id-3",name:"Наш офіс"},{id:"id-4",name:"Наш графік"}],a=document.querySelector(".list");n=i.map((function(n){var i=n.id,a=n.name;return'\n    <li class="item">\n    <a class="link" href="#'.concat(i,'">').concat(a,"</a>\n    </li> ")})).join(),a.insertAdjacentHTML("afterbegin",n)}();
+//# sourceMappingURL=index.38696416.js.map
