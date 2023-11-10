@@ -1,15 +1,15 @@
-import { advantageItems } from './advantageItems';
+import { advantageItems } from "./advantageItems";
 
-const advantageEl = document.querySelector('.list')
+const advantageEl = document.querySelector('.advantage__list')
 
 function advantage() {
   const element = advantageItems.map(({ id, name }) => {
     return `
-    <li class="item">
-    <a class="link" href="#${id}">${name}</a>
-    </li> `;  
+    <li class="advantage__item">
+      <p class="advantage__title">${name}</p>
+   </li>`;   
     
-  }).join()
+  }).join('')
   advantageEl.insertAdjacentHTML('afterbegin', element)
 }
 

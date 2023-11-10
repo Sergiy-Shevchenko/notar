@@ -1,0 +1,92 @@
+.section__schedule {
+    width: calc(100% - 20px);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .schedule__title {
+    width: 100%;
+    max-width: calc(100% - 200px);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(96, 101, 96);
+  
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+    }
+   @media screen and (min-width: 1200px) {
+      font-size: 24px;
+    }
+  }
+
+
+  .agreement__scedule {
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid rgb(10, 201, 22);
+}
+
+
+.schedule-body > tr:hover {
+    background-color: rgb(10, 201, 22);
+    color: white;
+  }
+  
+  /* Table styling */
+  .schedule {
+    width: 100%;
+    max-width: calc(100% / 2);
+    margin-top: 30px;
+    margin-bottom: 30;
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-collapse: collapse;
+    @media screen and (min-width: 768px) {
+        max-width: calc(100% / 2 - 50px);
+      }
+  }
+  
+  .column_title {
+    text-align: center;
+    // color: rgb(96, 101, 96);
+    color: #fff;
+  }
+  
+  .schedule th,
+  .schedule td {
+    padding: 8px;
+  
+    // border: 1px solid #212121;
+  }
+  
+  th {
+    width: 300px;
+    color: #fff;
+  
+    background-color: rgb(10, 201, 22);
+  }
+  td {
+    text-align: center;
+    font-weight: 700;
+    // color: rgb(96, 101, 96);
+  }
+  
+  .title__td {
+    text-align: left;
+  }
+  
+  tr.schedule__hover_1:hover {
+    color: rgb(10, 201, 22);
+    background-color: rgb(255, 255, 0);
+  }
+  
+  tr.schedule__hover_2:hover {
+    // color: rgb(10, 201, 22);
+    background-color: rgb(255, 17, 0);
+  }
+  
