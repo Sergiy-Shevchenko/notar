@@ -39,7 +39,7 @@
   /* Table styling */
   .schedule {
     width: 100%;
-    max-width: calc(100% - 20px);
+    max-width: 450px;
     margin-top: 30px;
     margin-bottom: 30;
     margin-left: auto;
@@ -47,7 +47,8 @@
   
     border-collapse: collapse;
     @media screen and (min-width: 768px) {
-        max-width: calc(100% / 2 - 50px);
+      width: calc(100% - 200px);
+        max-width: 910px;
       }
   }
   
@@ -71,22 +72,24 @@
     background-color: rgb(10, 201, 22);
   }
   td {
-    text-align: center;
-    font-weight: 700;
+    // text-align: center;
+    font-weight: 500;
     // color: rgb(96, 101, 96);
   }
   
   .title__td {
+    width: calc(100% / 2);
+    padding-left: 15px;
     text-align: left;
   }
   
-  tr.schedule__hover_1:hover {
+  tr.schedule__hover:hover {
     color: rgb(10, 201, 22);
     background-color: rgb(255, 255, 0);
   }
   
-  tr.schedule__hover_2:hover {
-    // color: rgb(10, 201, 22);
-    background-color: rgb(255, 17, 0);
-  }
+  // tr.schedule__hover_2:hover {
+  //   // color: rgb(10, 201, 22);
+  //   background-color: rgb(255, 17, 0);
+  // }
   
