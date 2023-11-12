@@ -1,2 +1,0 @@
-!function(){var a,n=[{id:"1",name:"Індивідуальний підхід до клієнта"},{id:"2",name:"Працюємо за межами офісу"},{id:"3",name:"За довленістю надамо послуги 24/7"},{id:"4",name:"Все зробимо в найкоротші строки"}],e=document.querySelector(".advantage__list");a=n.map((function(a){a.id;var n=a.name;return'\n    <li class="advantage__item">\n      <p class="advantage__title">'.concat(n,"</p>\n   </li>")})).join(""),e.insertAdjacentHTML("afterbegin",a)}();
-//# sourceMappingURL=index.f0c19787.js.map

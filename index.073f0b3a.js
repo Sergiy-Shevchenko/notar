@@ -1,2 +1,0 @@
-const n=[{id:"1",name:"Індивідуальний підхід до клієнта"},{id:"2",name:"Працюємо за межами офісу"},{id:"3",name:"За довленістю надамо послуги 24/7"},{id:"4",name:"Все зробимо в найкоротші строки"}],a=document.querySelector(".advantage__list");!function(){const e=n.map((({id:n,name:a})=>`\n    <li class="advantage__item">\n      <p class="advantage__title">${a}</p>\n   </li>`)).join("");a.insertAdjacentHTML("afterbegin",e)}();
-//# sourceMappingURL=index.073f0b3a.js.map
