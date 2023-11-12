@@ -1,9 +1,6 @@
 import { Report } from 'notiflix/build/notiflix-report-aio'
-import { servise } from './components/servise.js';
-// import check from './images/check_1.png'
+import  servise  from './components/servise.js';
 
-// console.log(check);
-// import 
 
 
 
