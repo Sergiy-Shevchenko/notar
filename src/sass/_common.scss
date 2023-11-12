@@ -1,6 +1,21 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
 body {
-    background-color: rgba(96, 101, 96, 0.155);
+    background-color: rgba(96, 101, 96, 0.082);
 }
 
+
+    .background {
+            background-image: url("../images/fone_backgroud.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+             width: 100%;
+            // background-attachment: fixed;
+            position: relative;
+            // top: 40%;
+            opacity: 85%; 
+            // -webkit-background-size: cover;
+            // -moz-background-size: cover;
+            // -o-background-size: cover;
+            background-size: cover;
+          }

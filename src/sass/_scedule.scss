@@ -3,6 +3,9 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (min-width: 768px) {
+      margin-top: 50px;
+      }
   }
 
   .schedule__title {
@@ -14,7 +17,7 @@
     margin-left: auto;
     margin-right: auto;
     color: rgb(96, 101, 96);
-  
+   
     @media screen and (min-width: 768px) {
       font-size: 20px;
     }
@@ -41,11 +44,15 @@
     width: 100%;
     max-width: 450px;
     margin-top: 30px;
-    margin-bottom: 30;
+    // margin-bottom: 30px;
+    padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-  
+    background-color: rgba(234, 237, 234, 0.822);
     border-collapse: collapse;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
+    1px 4px 6px rgba(0, 0, 0, 0.4); 
+    border-radius: 8px;
     @media screen and (min-width: 768px) {
       width: calc(100% - 200px);
         max-width: 910px;
