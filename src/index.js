@@ -1,5 +1,5 @@
 import { Report } from 'notiflix/build/notiflix-report-aio'
-import  servise  from './components/servise';
+import { servise } from './components/servise';
 
 
 

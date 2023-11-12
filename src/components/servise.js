@@ -3,7 +3,7 @@ import { serviseItems } from './serviseItems';
 
 const serviseEl = document.querySelector('.servise__list')
 
-function servise() {
+export function servise() {
   const element = serviseItems.map(({ id, name }) => {
     return `
     <li class="servise__item">
