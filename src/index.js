@@ -13,7 +13,7 @@ function linck() {
         {
         rtl: false,
         titleFontSize: '24px',
-        messageFontSize: '18px',
+        messageFontSize: '16px',
         titleColor: '#242424',
         messageColor: '#fff',
     });

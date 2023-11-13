@@ -5,17 +5,45 @@ body {
 }
 
 
-    .background {
-            background-image: url("../images/fone_backgroud.jpg");
-            background-repeat: no-repeat;
+//     .background {
+//             background-image: url("../images/fill_backgroumd.jpg");
+//             background-repeat: no-repeat;
+//             background-position: center center;
+//             background-attachment: fixed;
+//             // opacity: 85%; 
+//             -webkit-background-size: cover;
+//             -moz-background-size: cover;
+//             -o-background-size: cover;
+//             background-size: cover;
+//             display: block;
+//     @media screen and (min-width: 768px) {
+//         // background-attachment: absolute;
+
+//     }
+
+//   @media screen and (min-width: 1200px) {
+
+//     }
+
+//           }
+
+
+          .background {
+            
+            background: url("../images/background.jpg") no-repeat;
+            // background-color: rgba(137, 170, 179, 0.153);         
             background-position: center center;
-             width: 100%;
-            // background-attachment: fixed;
-            position: relative;
-            // top: 40%;
-            opacity: 85%; 
-            // -webkit-background-size: cover;
-            // -moz-background-size: cover;
-            // -o-background-size: cover;
-            background-size: cover;
+            background-attachment: fixed;
+            background-size: cover ;
+            display: block;
+    @media screen and (min-width: 768px) {
+    //     background-size: cover ;
+    // //     height: 100vh;
+    // position: absolute;
+    }
+
+  @media screen and (min-width: 1200px) {
+
+    }
+
           }
