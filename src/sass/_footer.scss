@@ -1,19 +1,24 @@
 .footer {
-  // display: none;
-  width: 100%;
+ width: 100%;
   background-color: rgb(10, 201, 22);
   padding: 10px;
 }
 
 .contact__icon__footer {
-  display: none;
+      display: block;
+  width: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  // margin-bottom: 10px;
   @media screen and (min-width: 768px) {
-    width: 24px;
-    display: block;
-    margin-right: 10px;
+      width: 100px;
+
+  
   }
 
   @media screen and (min-width: 1200px) {
+  
     margin-right: 15px;
   }
 }
@@ -22,7 +27,9 @@
     display: block;
   width: 100%;
   align-items: center;
-//   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   @media screen and (min-width: 768px) {
     display: flex;
   }
@@ -33,12 +40,13 @@
 
 .connect {
   width: fit-content;
-  display: flex;
-  justify-content: center;
+    display: flex;  
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px;
+
   @media screen and (min-width: 768px) {
+  margin-bottom: 15px;
   margin-bottom: 0;
   }
 
@@ -46,9 +54,13 @@
 
 .footer__contact {
   width: 100%;
-  display: flex;
   color: #fff;
   align-items: center;
+  // justify-content: space-around;
+  @media screen and (min-width: 768px) {
+    display: flex;  
+   
+    }
 }
 
 .tell,
@@ -62,18 +74,75 @@
 }
 
 .footer__contact__point {
+  font-size: 14px;
     width: fit-content;
     display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
 //   justify-content: center;
 //   justify-content: space-between;
 
   @media screen and (min-width: 768px) {
     margin-right: 15px;
+    font-size: 18px;
   }
 
   @media screen and (min-width: 1200px) {
   }
+}
+
+
+.footer__job {
+
+  display: block;
+  font-size: 18px;
+  margin: 0;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+  @media screen and (min-width: 1200px) {
+    // font-size: 32px;
+    
+  }
+
+}
+
+.footer__name {
+  display: block;
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 0;
+  margin-bottom: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    // font-size: 28px;
+    margin-left: 25px;
+  }
+
+}
+
+.footer__wing {
+  display: block;
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  filter: invert(100%); 
+  -webkit-filter:invert(100%); 
+  @media screen and (min-width: 768px) {
+    width: 52px;
+    margin-left: 0;
+  margin-right: 0;
+  }
+
 }

@@ -29,10 +29,8 @@ body {
 
 
           .background {
-            
-            background: url("../images/background.jpg") no-repeat;
-            // background-color: rgba(137, 170, 179, 0.153);         
-            background-position: center center;
+           background: url("../images/background.jpg") no-repeat;
+           background-position: center;
             background-attachment: fixed;
             background-size: cover ;
             display: block;

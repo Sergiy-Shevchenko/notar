@@ -45,6 +45,7 @@ ul {
 
 .link {
   display: block;
+
     @media screen and (min-width: 768px) {
       
   }
@@ -53,6 +54,11 @@ ul {
 
     }
 }
+
+.link__img {
+    border-radius: 50%;
+}
+
 
 .link__img:hover,
 .link__img:focus {
