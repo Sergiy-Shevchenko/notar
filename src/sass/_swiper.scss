@@ -1,8 +1,7 @@
 .swiper .swiper-initialized {
     width: calc(100% - 40px) ;
-    max-width: 400px;
-    height: 40%;
-    max-height: 350px;
+    // height: 40%;
+    max-height: 230px;
     position: relative;
         z-index: 5;
         @media screen and (min-width: 768px) {
@@ -22,20 +21,10 @@
         }    
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
   
   .swiper-slide {
+    width: 320%;
+    height: 230%;
     text-align: center;
     font-size: 18px;
     background: transparent;
@@ -45,31 +34,71 @@
 
   }
 
-  .swiper-slide img {
-    // display: block;
-    width: calc(100% - 80px) ;
-    max-width: 400px;
-    height: calc(100% - 30px);
-    max-height: 350px;
-    object-fit: cover;
+//   .swiper-slide {
+    
+//     width: 320px;
+//     height: 230px;
+//     overflow: hidden;
+//     // margin: 10px;
+
+
+//     // object-fit: cover;
+//     // border-radius: 3%;
+//     @media screen and (min-width: 768px) {
+//         width: calc(100% - 200px) ;
+//         max-width: 500px;
+//         height: calc(100% - 50px);
+//         max-height: 450px;
+//      }
+     
+//      @media screen and (min-width: 1200px) {
+//         width: calc(100% - 200px) ;
+//         max-width: 600px;
+//         height: calc(100% - 50px);
+//         max-height: 550px;
+         
+//      }    
+//   }
+
+
+  .img-slider {
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    max-height: 360px;
     border-radius: 3%;
     @media screen and (min-width: 768px) {
-        width: calc(100% - 200px) ;
-        max-width: 500px;
-        height: calc(100% - 50px);
-        max-height: 450px;
+        width: 100% ;
+        max-width: 910px;
+        height: 100%;
+        max-height: 600px;
      }
      
      @media screen and (min-width: 1200px) {
-        width: calc(100% - 200px) ;
-        max-width: 600px;
-        height: calc(100% - 50px);
-        max-height: 550px;
+       
          
      }    
+  
   }
 
+.swiper-button-prev {
+       @media screen and (min-width: 768px) {
+         left: 60px;    
+     }     
+     @media screen and (min-width: 1200px) {
+        left: 120px;         
+     }    
+} 
 
+.swiper-button-next {
+    @media screen and (min-width: 768px) {
+        right: 60px;    
+    }     
+    @media screen and (min-width: 1200px) {
+       right: 120px;         
+    }    
+ 
+}
 
 
 .swiper-button-prev::after {
@@ -80,8 +109,14 @@
     color: rgb(10, 201, 22); 
 }
 
+// .swiper-pagination-bullet {
+//     margin-top: 80px;
+// }
+
   span.swiper-pagination-bullet, .swiper-pagination-bullet-active {
+    
     background-color: rgb(10, 201, 22); 
     width: 12px;
     height: 12px;
+    
   }
