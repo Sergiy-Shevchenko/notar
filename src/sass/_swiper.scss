@@ -1,122 +1,80 @@
 .swiper .swiper-initialized {
-    width: calc(100% - 40px) ;
-    // height: 40%;
-    max-height: 230px;
-    position: relative;
-        z-index: 5;
-        @media screen and (min-width: 768px) {
-            width: calc(100% - 280px) ;
-            max-width: 500px;
-            height: 40%;
-            max-height: 450px;
-        }
-        
-        @media screen and (min-width: 1200px) {
-            width: calc(100% - 280px) ;
-            max-width: 600px;
-            height: 40%;
-            max-height: 550px;
-            // margin-bottom: 30px;
-            
-        }    
+  width: calc(100% - 40px);
+  max-height: 230px;
+  position: relative;
+  z-index: 5;
+  @media screen and (min-width: 768px) {
+    width: calc(100% - 280px);
+    max-width: 500px;
+    height: 40%;
+    max-height: 450px;
   }
 
-  
-  .swiper-slide {
-    width: 320%;
-    height: 230%;
-    text-align: center;
-    font-size: 18px;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-
+  @media screen and (min-width: 1200px) {
+    width: calc(100% - 280px);
+    max-width: 600px;
+    height: 40%;
+    max-height: 550px;
   }
+}
 
-//   .swiper-slide {
-    
-//     width: 320px;
-//     height: 230px;
-//     overflow: hidden;
-//     // margin: 10px;
+.swiper-slide {
+  width: 320%;
+  height: 230%;
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-//     // object-fit: cover;
-//     // border-radius: 3%;
-//     @media screen and (min-width: 768px) {
-//         width: calc(100% - 200px) ;
-//         max-width: 500px;
-//         height: calc(100% - 50px);
-//         max-height: 450px;
-//      }
-     
-//      @media screen and (min-width: 1200px) {
-//         width: calc(100% - 200px) ;
-//         max-width: 600px;
-//         height: calc(100% - 50px);
-//         max-height: 550px;
-         
-//      }    
-//   }
-
-
-  .img-slider {
+.img-slider {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 280px;
+  border-radius: 3%;
+  @media screen and (min-width: 768px) {
     width: 100%;
-    max-width: 300px;
+    max-width: 670px;
     height: 100%;
-    max-height: 280px;
-    border-radius: 3%;
-    @media screen and (min-width: 768px) {
-        width: 100% ;
-        max-width: 670px;
-        height: 100%;
-        max-height: 600px;
-     }
-     
-     @media screen and (min-width: 1200px) {
-       
-         
-     }    
-  
+    max-height: 600px;
   }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
 
 .swiper-button-prev {
-       @media screen and (min-width: 768px) {
-         left: 60px;    
-     }     
-     @media screen and (min-width: 1200px) {
-        left: 120px;         
-     }    
-} 
+  @media screen and (min-width: 768px) {
+    left: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    left: 120px;
+  }
+}
 
 .swiper-button-next {
-    @media screen and (min-width: 768px) {
-        right: 60px;    
-    }     
-    @media screen and (min-width: 1200px) {
-       right: 120px;         
-    }    
- 
+  @media screen and (min-width: 768px) {
+    right: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    right: 120px;
+  }
 }
-
 
 .swiper-button-prev::after {
-    color: rgb(10, 201, 22); 
+  color: rgb(10, 201, 22);
 }
-  
+
 .swiper-button-next::after {
-    color: rgb(10, 201, 22); 
+  color: rgb(10, 201, 22);
 }
 
-// .swiper-pagination-bullet {
-//     margin-top: 80px;
-// }
-
-  span.swiper-pagination-bullet, .swiper-pagination-bullet-active {
-    
-    background-color: rgb(10, 201, 22); 
-    width: 12px;
-    height: 12px;
-    
-  }
+span.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background-color: rgb(10, 201, 22);
+  width: 12px;
+  height: 12px;
+}

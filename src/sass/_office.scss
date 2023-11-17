@@ -1,113 +1,96 @@
 .section__ofice {
+  width: calc(100% - 20px);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.location__map__title {
+  width: 100%;
+  max-width: 450px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: rgb(96, 101, 96);
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
     width: calc(100% - 20px);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
   }
-
-  .location__map__title {
-    width: 100%;
-    max-width: 450px;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-     margin-bottom: 10px;
-     border-radius: 8px;
-    color: rgb(96, 101, 96);
-   
-  
-    @media screen and (min-width: 768px) {
-      font-size: 20px;
-      width: calc(100% - 20px);
-       
-    }
-   @media screen and (min-width: 1200px) {
-      font-size: 24px;
-    }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
   }
+}
 
-    .agreement {
-        padding: 5px;
-        border-radius: 8px;
-        border: 1px solid rgba(10, 201, 23, 0.521);
-        @media screen and (min-width: 768px) {
-            
-              margin-bottom: 15px;
-          }
-    
-    }
-      
-    // .panoram__picture {
-    //     width: 100%;
-    //     height: 100%;
-    //     padding: 5px;
-    //     border-radius: 10px;
-    //     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
-    // 1px 4px 6px rgba(0, 0, 0, 0.4); 
-        
-    // }
-      
+.agreement {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgba(10, 201, 23, 0.521);
+  @media screen and (min-width: 768px) {
+    margin-bottom: 15px;
+  }
+}
+
+.title__item,
+.map__title {
+  font-size: 0;
+  color: transparent;
+}
+
 .location__map {
-    width: calc(100% - 5px);
-    max-width: 450px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
-    1px 4px 6px rgba(0, 0, 0, 0.4); 
-    @media screen and (min-width: 768px) {
-      idth: calc(100% - 50px);
-      max-width: 910px;
-      height: 500px;
-      margin-top: 20px;
-    }
-  
-    @media screen and (min-width: 1200px) {
-      // width: calc(100% - 30px);
-      // max-width: 1300px;
-      // height: 700px;
-    }
+  width: calc(100% - 5px);
+  max-width: 450px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
+    1px 4px 6px rgba(0, 0, 0, 0.4);
+  @media screen and (min-width: 768px) {
+    idth: calc(100% - 50px);
+    max-width: 910px;
+    height: 500px;
+    margin-top: 20px;
   }
-  
-  .picture,
-  .map {
-    background-color: rgba(234, 237, 234, 0.822);
+
+  @media screen and (min-width: 1200px) {
+    // width: calc(100% - 30px);
+    // max-width: 1300px;
+    // height: 700px;
+  }
+}
+
+.picture,
+.map {
+  background-color: rgba(234, 237, 234, 0.822);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  @media screen and (min-width: 768px) {
+    // width: calc(100% / 2);
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.map__google {
+  width: 100%;
+  max-width: 450px;
+  height: 260px;
+  padding: 5px;
+  border-radius: 3%;
+  @media screen and (min-width: 768px) {
     width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    @media screen and (min-width: 768px) {
-      // width: calc(100% / 2);
-    }
-  
-    @media screen and (min-width: 1200px) {
-    }
+    max-width: 910px;
+    height: 455px;
   }
 
-
-
-
-    .map__google {
-        width: 100%;
-        max-width: 450px;
-       height: 260px;
-        padding: 5px;
-        border-radius: 3%;
-        @media screen and (min-width: 768px) {
-          width: 100%;
-        max-width: 910px;
-        height: 455px;
-      }
-      
-        @media screen and (min-width: 1200px) {
-        }
-      }
-  
-   
-
-
-  
-  
+  @media screen and (min-width: 1200px) {
+  }
+}

@@ -1,102 +1,99 @@
 .section__schedule {
-    width: calc(100% - 20px);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    @media screen and (min-width: 768px) {
-      margin-top: 70px;
-      }
+  width: calc(100% - 20px);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    margin-top: 70px;
   }
-
-  .schedule__title {
-    width: 100%;
-    max-width: calc(100% - 20px);
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: rgb(96, 101, 96);
-   
-    @media screen and (min-width: 768px) {
-      font-size: 20px;
-    }
-   @media screen and (min-width: 1200px) {
-      font-size: 24px;
-    }
-  }
-
-
-  .agreement__scedule {
-    padding: 5px;
-    border-radius: 8px;
-    border: 2px solid rgb(10, 201, 22);
 }
 
+.schedule__title {
+  width: 100%;
+  max-width: calc(100% - 20px);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(96, 101, 96);
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+  }
+}
+
+.agreement__scedule {
+  padding: 5px;
+  border-radius: 8px;
+  border: 2px solid rgb(10, 201, 22);
+}
 
 .schedule-body > tr:hover {
-    background-color: rgb(10, 201, 22);
-    color: white;
+  background-color: rgb(10, 201, 22);
+  color: white;
+}
+
+/* Table styling */
+.schedule {
+  width: 100%;
+  max-width: 450px;
+  margin-top: 30px;
+  // margin-bottom: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(234, 237, 234, 0.822);
+  border-collapse: collapse;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
+    1px 4px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  @media screen and (min-width: 768px) {
+    width: calc(100% - 200px);
+    max-width: 910px;
   }
-  
-  /* Table styling */
-  .schedule {
-    width: 100%;
-    max-width: 450px;
-    margin-top: 30px;
-    // margin-bottom: 30px;
-    padding-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(234, 237, 234, 0.822);
-    border-collapse: collapse;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
-    1px 4px 6px rgba(0, 0, 0, 0.4); 
-    border-radius: 8px;
-    @media screen and (min-width: 768px) {
-      width: calc(100% - 200px);
-        max-width: 910px;
-      }
-  }
-  
-  .column_title {
-    text-align: center;
-    // color: rgb(96, 101, 96);
-    color: #fff;
-  }
-  
-  .schedule th,
-  .schedule td {
-    padding: 8px;
-  
-    // border: 1px solid #212121;
-  }
-  
-  th {
-    width: 300px;
-    color: #fff;
-  
-    background-color: rgb(10, 201, 22);
-  }
-  td {
-    // text-align: center;
-    font-weight: 500;
-    // color: rgb(96, 101, 96);
-  }
-  
-  .title__td {
-    width: calc(100% / 2);
-    padding-left: 15px;
-    text-align: left;
-  }
-  
-  tr.schedule__hover:hover {
-    color: rgb(10, 201, 22);
-    background-color: rgb(255, 255, 0);
-  }
-  
-  // tr.schedule__hover_2:hover {
-  //   // color: rgb(10, 201, 22);
-  //   background-color: rgb(255, 17, 0);
-  // }
-  
+}
+
+.column_title {
+  text-align: center;
+  // color: rgb(96, 101, 96);
+  color: #fff;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+
+  // border: 1px solid #212121;
+}
+
+th {
+  width: 300px;
+  color: #fff;
+
+  background-color: rgb(10, 201, 22);
+}
+td {
+  // text-align: center;
+  font-weight: 500;
+  // color: rgb(96, 101, 96);
+}
+
+.title__td {
+  width: calc(100% / 2);
+  padding-left: 15px;
+  text-align: left;
+}
+
+tr.schedule__hover:hover {
+  color: rgb(10, 201, 22);
+  background-color: rgb(255, 255, 0);
+}
+
+// tr.schedule__hover_2:hover {
+//   // color: rgb(10, 201, 22);
+//   background-color: rgb(255, 17, 0);
+// }

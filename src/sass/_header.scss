@@ -41,9 +41,7 @@ h3 {
   }
 
   @media screen and (min-width: 1200px) {
-    //    font-size: 40px;
-    // padding-top: 7px;
-    // padding-bottom: 7px;
+   
   }
 }
 
@@ -115,7 +113,6 @@ h3 {
 
 .contact {
   width: 100%;
-
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -132,18 +129,20 @@ h3 {
   }
 
   @media screen and (min-width: 1200px) {
-    // display: block;
     width: fit-content;
   }
 }
 
+.contact__icon:hover .location:hover {
+  display: none;
+}
+
 .contact__item {
-  display: block;
+  display: flex;
   font-size: 12px;
   font-weight: 700;
   margin: 0;
   padding: 0;
-  // margin-bottom: auto;
   color: #fff;
   text-decoration: none;
   @media screen and (min-width: 768px) {
@@ -156,7 +155,26 @@ h3 {
     font-size: 18px;
     width: 100%;
   }
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color:  rgb(10, 201, 22);
+  }
+
+  &:hover .contact__icon,
+  &:focus .contact__icon {
+    fill:  rgb(10, 201, 22);
+    stroke:  rgb(10, 201, 22);    
+  }
+
 }
+
+
+
 
 .location {
   display: flex;
@@ -172,6 +190,12 @@ h3 {
   @media screen and (min-width: 1200px) {
     justify-content: space-between;
   }
+  &:hover .contact__icon,
+  &:focus .contact__icon {
+    fill:  rgb(10, 201, 22);
+    stroke:  rgb(10, 201, 22);    
+  }
+
 }
 
 .location:last-child {
@@ -180,10 +204,11 @@ h3 {
     margin-top: 15px;
   }
 }
-
+ 
 .contact__icon {
-  display: block;
+  // display: block;
   width: 24px;
+  height: 24px;
   fill: #fff;
   stroke: #fff;
   margin-right: 5px;
@@ -192,6 +217,10 @@ h3 {
   margin-right: 5px;
   @media screen and (min-width: 1200px) {
     margin-right: 16px;
+  }
+  &:hover::after  {
+    fill:  rgb(10, 201, 22);
+    stroke:  rgb(10, 201, 22);    
   }
 }
 

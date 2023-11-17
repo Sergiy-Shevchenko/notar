@@ -1,5 +1,4 @@
-//   import Swiper from "swiper/swiper-bundle.min.mjs";
-// import Swiper from "swiper/swiper-bundle.min.mjs";
+import Swiper from 'swiper/swiper-bundle.min.mjs';
 
 new Swiper('.mySwiper', {
   slidesPerView: 1,
@@ -8,7 +7,6 @@ new Swiper('.mySwiper', {
   lazy: true,
   loop: true,
   direction: 'horizontal',
-
 
   pagination: {
     el: '.swiper-pagination',
@@ -19,4 +17,18 @@ new Swiper('.mySwiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+});
+
+new Swiper('.disolve', {
+  lazy: true,
+  speed: 3000,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true,
+  },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  loop: true,
 });
