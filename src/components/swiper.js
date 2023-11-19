@@ -6,7 +6,7 @@ new Swiper('.mySwiper', {
   spaceBetween: 100,
   lazy: true,
   loop: true,
-  autoHeight: true,
+  // autoHeight: true,
   direction: 'horizontal',
     pagination: {
     el: '.swiper-pagination',
@@ -18,19 +18,22 @@ new Swiper('.mySwiper', {
     prevEl: '.swiper-button-prev',
   },
  autoplay: {
-    delay: 5000,
+    delay: 3000,
     disableOnInteraction: false,
   },
-
+  grabCursor: true,
+  slideToClockedSlide: true,
+  effect: 'fade',
+fadeEffect: {
+    crossFade: true,
+  },
 });
 
 new Swiper('.disolve', {
   lazy: true,
   speed: 3000,
-  effect: 'fade',
-  fadeEffect: {
-    crossFade: true,
-  },
+
+  
  
   loop: true,
 });
