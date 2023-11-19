@@ -58,8 +58,8 @@ h3 {
     display: block;
     // padding-top: 20px;
     // padding-bottom: 40px;
-    margin-left: -50px;
-    margin-right: -90px;
+    margin-left: -90px;
+    margin-right: -100px;
     // filter: invert(100%);
     // -webkit-filter: invert(100%);
   }
@@ -70,7 +70,13 @@ h3 {
 }
 
 .title__contact {
+  @media screen and (min-width: 768px) {
+ 
+  width: calc(100% - 200px);
+     }
+     
   @media screen and (min-width: 1200px) {
+ 
     display: flex;
     margin: auto;
      }
@@ -80,12 +86,12 @@ h3 {
   width: 100%;
   text-align: center;
   @media screen and (min-width: 768px) {
-    width: 500px;
+    // width: 500px;
     padding-top: 15px;
     
   }
   @media screen and (min-width: 1200px) {
-    width: 500px;
+    // width: 500px;
     margin-left: 100px;
     margin-right: 100px;
   }
