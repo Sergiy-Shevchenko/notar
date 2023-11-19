@@ -36,12 +36,41 @@ h3 {
   margin-right: auto;
 
   @media screen and (min-width: 768px) {
+    margin-left: 15px;
+    margin-right: auto;
+
     padding-top: 15px;
     padding-bottom: 15px;
   }
 
   @media screen and (min-width: 1200px) {
-   
+    margin-left: 15px;
+    margin-right: 100px;
+  }
+}
+
+.logo__kyiv {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    // padding-top: 20px;
+    // padding-bottom: 40px;
+    margin-left: -50px;
+    margin-right: -90px;
+    // filter: invert(100%);
+    // -webkit-filter: invert(100%);
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.title__contact {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin: auto;
+    // margin-bottom: auto;
   }
 }
 
@@ -49,16 +78,17 @@ h3 {
   width: 100%;
   text-align: center;
   @media screen and (min-width: 768px) {
-    text-align: left;
-    margin-left: 30px;
+    width: 500px;
     padding-top: 15px;
   }
   @media screen and (min-width: 1200px) {
+    width: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 .title {
   text-align: center;
-
   color: rgb(243, 168, 8);
   margin: 0;
   padding: 0;
@@ -121,15 +151,18 @@ h3 {
   margin-right: auto;
   justify-content: space-around;
   @media screen and (min-width: 768px) {
-    display: block;
-    width: fit-content;
-    justify-content: start;
-    margin-top: auto;
-    margin-bottom: auto;
+    // display: flex;
+    // width: fit-content;
+    justify-content: space-between;
+    // margin-top: auto;
+    // margin-bottom: auto;
   }
 
   @media screen and (min-width: 1200px) {
     width: fit-content;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
@@ -163,19 +196,15 @@ h3 {
 
   &:hover,
   &:focus {
-    color:  rgb(10, 201, 22);
+    color: rgb(10, 201, 22);
   }
 
   &:hover .contact__icon,
   &:focus .contact__icon {
-    fill:  rgb(10, 201, 22);
-    stroke:  rgb(10, 201, 22);    
+    fill: rgb(10, 201, 22);
+    stroke: rgb(10, 201, 22);
   }
-
 }
-
-
-
 
 .location {
   display: flex;
@@ -187,27 +216,29 @@ h3 {
   // justify-content: start;
   @media screen and (min-width: 768px) {
   }
-
+  justify-content: space-between;
   @media screen and (min-width: 1200px) {
     justify-content: space-between;
   }
   &:hover .contact__icon,
   &:focus .contact__icon {
-    fill:  rgb(10, 201, 22);
-    stroke:  rgb(10, 201, 22);    
+    fill: rgb(10, 201, 22);
+    stroke: rgb(10, 201, 22);
   }
-
 }
 
 .location:last-child {
   margin-bottom: 0;
   @media screen and (min-width: 768px) {
+    //   margin-top: 15px;
+    // margin-left: 15px;
+  }
+  @media screen and (min-width: 1200px) {
     margin-top: 15px;
   }
 }
- 
+
 .contact__icon {
-  // display: block;
   width: 24px;
   height: 24px;
   fill: #fff;
@@ -219,9 +250,9 @@ h3 {
   @media screen and (min-width: 1200px) {
     margin-right: 16px;
   }
-  &:hover::after  {
-    fill:  rgb(10, 201, 22);
-    stroke:  rgb(10, 201, 22);    
+  &:hover::after {
+    fill: rgb(10, 201, 22);
+    stroke: rgb(10, 201, 22);
   }
 }
 
