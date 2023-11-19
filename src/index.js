@@ -1,7 +1,7 @@
 
-import './components/servise'
-import './components/modal'
-import './components/swiper'
+import './components/servise';
+import './components/modal';
+import './components/swiper';
 {/* <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> */}
 import { Report } from 'notiflix/build/notiflix-report-aio'
 
