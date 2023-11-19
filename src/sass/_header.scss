@@ -70,8 +70,7 @@ h3 {
   @media screen and (min-width: 1200px) {
     display: flex;
     margin: auto;
-    // margin-bottom: auto;
-  }
+     }
 }
 
 .header__title {
@@ -80,6 +79,7 @@ h3 {
   @media screen and (min-width: 768px) {
     width: 500px;
     padding-top: 15px;
+    
   }
   @media screen and (min-width: 1200px) {
     width: 500px;
