@@ -4,7 +4,7 @@
 body {
   background-color: rgba(96, 101, 96, 0.082);
   margin: 0;
-  // overscroll-behavior: none;
+  overscroll-behavior: none;
 }
 
 .background {
@@ -16,7 +16,7 @@ body {
 
 .bg_ios_back {
   background-attachment: local;
-  top: 290px;
+  // top: 290px;
   top: 0;
   left: 0;
   width: 100%;
