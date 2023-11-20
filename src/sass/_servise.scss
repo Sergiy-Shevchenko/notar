@@ -106,7 +106,7 @@
 
 .text {
   font-size: 18px;
-  text-indent: 30px;
+  text-align: center;
   padding: 10px;
   // color: rgb(96, 101, 96);
   color: rgb(255, 255, 255);
@@ -122,8 +122,9 @@
 
   @media screen and (min-width: 1200px) {
     font-size: 24px;
-    margin: 11px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px;
+    text-align: center;
+    // margin-top: 15px;
+    // margin-bottom: 15px;
   }
 }
