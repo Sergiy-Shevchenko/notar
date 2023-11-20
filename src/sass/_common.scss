@@ -1,11 +1,11 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 @import '../../node_modules/swiper/swiper-bundle.min.css';
 
-body {
-  background-color: rgba(96, 101, 96, 0.082);
-  margin: 0;
-  overscroll-behavior: none;
-}
+// body {
+//   background-color: rgba(96, 101, 96, 0.082);
+//   margin: 0;
+//   overscroll-behavior: none;
+// }
 
 .background {
   width: 100%;
@@ -16,7 +16,6 @@ body {
 
 .bg_ios_back {
   background-attachment: local;
-  // top: 290px;
   top: 0;
   left: 0;
   width: 100%;
