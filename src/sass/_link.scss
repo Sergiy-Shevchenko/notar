@@ -1,6 +1,6 @@
 .section__link {
-  width: 70px;
-  height: 340px;
+  width: 60px;
+  height: 290px;
   display: block;
   background-color: rgba(255, 255, 255, 0.416);
   margin-top: auto;
@@ -13,7 +13,7 @@
   1px 4px 6px rgba(79, 73, 73, 0.4);
   z-index: 6;
   @media screen and (min-width: 768px) {
-    top: 10%;
+    top: 15%;
   }
   @media screen and (min-width: 1200px) {
     width: 50px;
@@ -32,8 +32,7 @@ ul {
   margin-bottom: 7px;
   justify-content: space-around;
   @media screen and (min-width: 768px) {
-    // justify-content: space-around;
-    // margin: 0;
+    
   }
 
   @media screen and (min-width: 1200px) {
@@ -41,10 +40,10 @@ ul {
 }
 
 .link__item {
-  // display: block;
+
   list-style-type: none;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin: 7px;
 
   @media screen and (min-width: 768px) {
