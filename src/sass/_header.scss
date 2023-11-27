@@ -55,13 +55,9 @@ h3 {
 .logo__kyiv {
   display: none;
   @media screen and (min-width: 768px) {
-    display: block;
-    // padding-top: 20px;
-    // padding-bottom: 40px;
+    display: block;    
     margin-left: -90px;
     margin-right: -100px;
-    // filter: invert(100%);
-    // -webkit-filter: invert(100%);
   }
 
   @media screen and (min-width: 1200px) {
@@ -70,16 +66,14 @@ h3 {
 }
 
 .title__contact {
-  @media screen and (min-width: 768px) {
- 
+  @media screen and (min-width: 768px) { 
   width: calc(100% - 200px);
      }
      
-  @media screen and (min-width: 1200px) {
- 
+  @media screen and (min-width: 1200px) { 
     display: flex;
     margin: auto;
-     }
+  }
 }
 
 .header__title {
@@ -216,12 +210,16 @@ h3 {
   margin-right: auto;
   margin-bottom: 0;
   align-items: center;
-  // justify-content: start;
+  cursor: pointer;
+  // border-radius: 50px;
+  // box-shadow: 5px 5px 5px -1px rgba(49, 49, 50, 0.2),
+  //             -5px -5px 5px -1px rgba(104, 103, 103, 0.7);
   @media screen and (min-width: 768px) {
   }
   justify-content: space-between;
   @media screen and (min-width: 1200px) {
     justify-content: space-between;
+
   }
   &:hover .contact__icon,
   &:focus .contact__icon {
