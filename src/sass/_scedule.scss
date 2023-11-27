@@ -42,7 +42,6 @@
   width: 100%;
   max-width: 450px;
   margin-top: 30px;
-  // margin-bottom: 30px;
   padding-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -59,28 +58,20 @@
 
 .column_title {
   text-align: center;
-  // color: rgb(96, 101, 96);
   color: #fff;
 }
 
 .schedule th,
 .schedule td {
   padding: 8px;
-
-  // border: 1px solid #212121;
 }
 
 th {
-  width: 300px;
-  color: #fff;
-
-  background-color: rgb(10, 201, 22);
+  display: none;
 }
 td {
-  // text-align: center;
   font-weight: 500;
-  // color: rgb(96, 101, 96);
-}
+ }
 
 .title__td {
   width: calc(100% / 2);
@@ -92,8 +83,3 @@ tr.schedule__hover:hover {
   color: rgb(10, 201, 22);
   background-color: rgb(255, 255, 0);
 }
-
-// tr.schedule__hover_2:hover {
-//   // color: rgb(10, 201, 22);
-//   background-color: rgb(255, 17, 0);
-// }
