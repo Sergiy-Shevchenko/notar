@@ -11,7 +11,7 @@ const mateText = () => {
   const element = textItems
     .map(({ text }) => {
       return `    
-        <p class="text">${text}</p>`;
+        <p class="lng-text">${text}</p>`;
     })
     .join('');
   textEl.insertAdjacentHTML('beforeend', element);
