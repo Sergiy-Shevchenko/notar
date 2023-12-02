@@ -7,8 +7,7 @@ import './components/schedule/schedule.js'
 import './components/footer/footer.js'
 import './components/translater/lang.js'
 import './components/translater/app.js'
-
-// import './components/modal/modal.js';
+import './components/modal/modal.js';
 
 
   

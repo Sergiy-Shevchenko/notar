@@ -14,12 +14,12 @@ const makeFooter = () => {
     .map(({ job, name, street, point }) => {
       return `  
         <span class="location_point">
-        <h4 class="footer__job">${job}</h4>
-        <h4 class="footer__name">${name}</h4>
+        <h4 class="lng-footer-job">${job}</h4>
+        <h4 class="lng-footer-name">${name}</h4>
       </span>
       <span class="adress">
-        <h4 class="footer__contact__point">${street}</h4>
-        <h4 class="footer__contact__point">${point}</h4>
+        <h4 class="lng-footer-adress">${street}</h4>
+        <h4 class="lng-footer-point">${point}</h4>
       </span>`;
     })
     .join('');

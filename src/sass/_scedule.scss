@@ -25,6 +25,11 @@
     font-size: 24px;
   }
 }
+//--------------2-variant------
+
+
+
+
 
 .agreement__scedule {
   padding: 5px;
@@ -78,6 +83,32 @@ td {
   padding-left: 15px;
   text-align: left;
 }
+
+
+.lng-title-day1,
+.lng-title-day2,
+.lng-title-day3,
+.lng-title-day4,
+.lng-title-day5,
+.lng-title-day6,
+.lng-title-day7 {
+  width: calc(100% / 2);
+  padding-left: 15px;
+  text-align: left;
+  color: rgb(106, 114, 106);
+}
+
+.lng-title-time1,
+.lng-title-time2,
+.lng-title-time3,
+.lng-title-time4,
+.lng-title-time5,
+.lng-title-time6,
+.lng-title-time7 {
+  color: rgb(106, 114, 106);
+}
+
+
 
 tr.schedule__hover:hover {
   color: rgb(10, 201, 22);
